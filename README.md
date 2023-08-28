@@ -1,38 +1,62 @@
-# create-svelte
+# Emoji Memory Game with SvelteKit 🎮🌈
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Overview
 
-## Creating a project
+Emoji Memory is a fun and challenging game built with [SvelteKit](https://kit.svelte.dev/). The game features an array of emojis to test your memory skills. Try to match pairs of emojis as quickly as possible!
 
-If you're seeing this, you've probably already done this step. Congrats!
+![Emoji Memory Game Screenshot](./screenshot.png)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+---
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Table of Contents
 
-## Developing
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+---
 
-```bash
-npm run dev
+## Installation
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+To get the project up and running, follow these steps:
 
-## Building
+1. Clone the repository:
+    ```bash
+    git clone git@github.com:YourUsername/EmojiMemory.git
+    ```
+  
+2. Navigate into the project directory:
+    ```bash
+    cd EmojiMemory
+    ```
 
-To create a production version of your app:
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-```bash
-npm run build
-```
+4. Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-You can preview the production build with `npm run preview`.
+Visit `http://localhost:5174` to see the application running!
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+---
+
+## Usage
+
+- Click on an emoji card to reveal the emoji behind it.
+- Try to find its matching pair in the grid.
+- Match all pairs to win the game!
+
+---
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+Made with 💖 by AlefAlfa
