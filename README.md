@@ -22,7 +22,7 @@ To get the project up and running, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone git@github.com:YourUsername/EmojiMemory.git
+    git clone https://github.com/AlefAlfa/EmojiMemory.git
     ```
   
 2. Navigate into the project directory:
